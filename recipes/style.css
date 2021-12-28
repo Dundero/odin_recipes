@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    flex-basis: 40%;
+}
+
+.title {
+    padding-left: 20px;
+    font-size: 36px;
+}
+
+.ingredients {
+    display: inline-block;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: red;
+}
+
+.ingredients-title {
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: red;
+}
+
+.instructions {
+    display: inline-block;
+    border-style: solid;
+    border-color: red;
+}
+
+.instructions-title {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-color: red;
+}
